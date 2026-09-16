@@ -4,4 +4,4 @@
 <p>if you see a mistake / don't see your fandom space, please let me know on my <a href="https://shionmai.atabook.org/">新book</a>!</p>
 <p>last updated: 09/11/2026</p>
 
-<img src="fandom_map.png" alt="Fandom Map">
+<img src="fandom_map1.png" alt="Fandom Map">
