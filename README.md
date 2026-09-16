@@ -5,7 +5,8 @@
 <p>last updated: 09/16/2026</p>
 <ul>
   <li>Added Project Moon</li>
+  <li>Added Enstars</li>
   <li>Changed Marvel to Superheros</li>
 </ul>
 
-<img src="fandom_map.png" alt="Fandom Map">
+<img src="fandom_map.png" alt="Fandom Map"/>
