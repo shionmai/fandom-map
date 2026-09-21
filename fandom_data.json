@@ -1,0 +1,16 @@
+{
+    "fandoms": [
+        {
+            "fandomName": "Project Sekai",
+            "location": [23, 45]
+        },
+        {
+            "fandomName": "Sonic",
+            "location": [5, 37]
+        },
+        {
+            "fandomName": "Undertale",
+            "location": [51, 62]
+        }
+    ]
+}
