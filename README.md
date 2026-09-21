@@ -9,4 +9,4 @@
   <li>Changed Marvel to Superheros</li>
 </ul>
 
-<img src="fandom_map.png" alt="Fandom Map"/>
+<img src="images/fandom_map.png" alt="Fandom Map"/>
