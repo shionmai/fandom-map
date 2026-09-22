@@ -32,7 +32,7 @@ function makePin(name, locationTop, locationLeft, fandomLabels) {
         labelInSearch.addEventListener('mouseleave', () => {
             newPin.classList.remove('pin-active');
             newPinShape.classList.remove('pin-shape-active');
-            newPinInfo.style.display = "none";
+            newPinInfo.style.display = "";
         });
     }
 
