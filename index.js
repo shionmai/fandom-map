@@ -1,10 +1,10 @@
 console.log("hello :D");
 const pinContainer = document.getElementById("pin-container");
 const searchContainer = document.getElementById("search-content")
-function makePin(name, locationTop, locationLeft) {
+function makePin(name, locationTop, locationLeft, fandomLabels) {
     const newPin = document.createElement('div');
     newPin.className = "pin";
-    newPin.id = `${name}`;
+    newPin.id = `pin-${name}`;
     newPin.style.top = String(locationTop) + "%";
     newPin.style.left = String(locationLeft) + "%";
 
@@ -19,7 +19,25 @@ function makePin(name, locationTop, locationLeft) {
     newPinInfo.appendChild(newPinInfoSpan);
     newPinInfoSpan.textContent = String(name);
 
+    for(const label of fandomLabels){
+
+        const labelInSearch = document.getElementById(label);
+
+        labelInSearch.addEventListener('mouseenter', () => {
+            newPin.classList.add('pin-active');
+            newPinShape.classList.add('pin-shape-active');
+            newPinInfo.style.display = "flex";
+        });
+
+        labelInSearch.addEventListener('mouseleave', () => {
+            newPin.classList.remove('pin-active');
+            newPinShape.classList.remove('pin-shape-active');
+            newPinInfo.style.display = "none";
+        });
+    }
+
     pinContainer.appendChild(newPin);
+
 }
 function makeSearchContent(name) {
     const newFandom = document.createElement('div');
@@ -37,13 +55,15 @@ async function loadFandomData() {
         const data = await response.json();
         for(const fandom of data.fandoms){
             let label = "";
+            let fandomLabels = []
 
             for(const name of fandom.fandomName){
                 label += name + "\n";
+                fandomLabels.push(name);
                 makeSearchContent(name);
             }
 
-            makePin(label, fandom.location[0], fandom.location[1]);
+            makePin(label, fandom.location[0], fandom.location[1], fandomLabels);
         }
     }
     catch (error) {
