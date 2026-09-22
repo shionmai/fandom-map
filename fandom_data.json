@@ -1,16 +1,96 @@
 {
     "fandoms": [
         {
-            "fandomName": "Project Sekai",
+            "fandomName": ["Boku No Hero Academia"],
+            "location": [2, 53]
+        },
+        {
+            "fandomName": ["Sonic"],
+            "location": [5, 37]
+        },
+        
+        {
+            "fandomName": ["Minecraft Youtubers"],
+            "location": [8, 57.5]
+        },
+        {
+            "fandomName": ["Horror Video Games", "Homestuck", "FNAF"],
+            "location": [12, 39]
+        },
+        
+        {
+            "fandomName": ["Team Fortess 2"],
+            "location": [12, 65]
+        },
+        {
+            "fandomName": ["Project Moon", "Limbus Company", "Lobcorp", "Library of Ruina"],
+            "location": [15, 42]
+        },
+        
+        {
+            "fandomName": ["Hazbin Hotel"],
+            "location": [15, 52]
+        },
+        {
+            "fandomName": ["The Freak Circus"],
+            "location": [18, 45]
+        },
+        {
+            "fandomName": ["Alien Stage"],
+            "location": [21, 52]
+        },
+        {
+            "fandomName": ["Dangaronpa"],
+            "location": [22, 63]
+        },
+        {
+            "fandomName": ["Rhythm Games", "Vocaloid", "Project Sekai", "Bandori", "D4DJ"],
             "location": [23, 45]
         },
         {
-            "fandomName": "Sonic",
-            "location": [5, 37]
+            "fandomName": ["Cookie Run"],
+            "location": [23, 40]
         },
         {
-            "fandomName": "Undertale",
+            "fandomName": ["Hoyoverse", "Genshin", "Honkai: Star Rail", "ZZZ", "Wuthering Waves"],
+            "location": [24, 56]
+        },
+        {
+            "fandomName": ["Resident Evil"],
+            "location": [25, 50]
+        },
+        {
+            "fandomName": ["Country Humans"],
+            "location": [28.5, 66.5]
+        },
+        {
+            "fandomName": ["My Little Pony"],
+            "location": [30, 14]
+        },
+        {
+            "fandomName": ["Superheros"],
+            "location": [31, 48]
+        },
+        
+        {
+            "fandomName": ["Bongo Stray Dogs"],
+            "location": [32, 44]
+        },
+        {
+            "fandomName": ["Rick and Morty"],
+            "location": [32, 39]
+        },
+        {
+            "fandomName": ["Murder Drones", "The Amazing Digital Circus"],
+            "location": [32, 67]
+        },
+        {
+            "fandomName": ["Deltarune", "Undertale"],
             "location": [51, 62]
+        },
+        {
+            "fandomName": ["Ninjago"],
+            "location": [57, 41.5]
         }
     ]
 }
