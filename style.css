@@ -4,6 +4,10 @@ html{
     min-width: 800px;
 }
 
+body{
+    padding: 0 100px;
+}
+
 .site-header{
     display: flex;
     justify-content: space-between;
@@ -101,6 +105,10 @@ html{
     background-color: #f6f3f9;
 }
 
+.fandom:hover{
+    background-color: bisque;
+}
+
 /* MAP CSS */
 
 .map-container{
@@ -119,14 +127,16 @@ html{
 
 .pin {
     position: absolute;
+}
+
+.pin-shape {
+    position: absolute;
     width: 25px;
     height: 25px;
     border-radius: 50% 50% 50% 0;
     background: #ff5b5b;
     transform: rotate(-45deg);
     margin: -20px 0 0 -20px;
-    top: 20%;
-    left: 30%;
 
     &::before{
         content: '';
@@ -141,29 +151,33 @@ html{
     outline: 3px solid black;
 }
 
-.pin:hover {
+.pin-shape:hover {
     transform: scale(1.1) rotate(-45deg);
     background: rgb(240, 217, 84);
-    z-index: 3;
 }
 
 .pin:hover .pin-info {
     display:flex;
 }
 
+.pin:hover {
+    z-index: 3;
+}
+
 .pin-info{
-    position: relative;
-    transform: translateX(-50%) rotate(45deg);
+    position: absolute;
     text-align: center;
     justify-content: center;
+    left: -10px;
+    bottom: 27px;
+    transform: translate(-50%);
     display: none;
-    bottom: 2rem;
-    left: 2.5rem;
 }
 
 .pin-info span{
     border: 2px solid black;
+    border-radius: 8px;
     background-color: white;
-    white-space: nowrap;
+    white-space: pre;
     padding: 5px 10px;
 }
