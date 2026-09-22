@@ -44,6 +44,25 @@ body{
     margin: 30px 100px;
 }
 
+.map-servers-container{
+    margin: 0 0 0 20px;
+    padding: 10px;
+    
+    font-size: 15px;
+
+    width: fit-content;
+
+    border: 3px solid;
+    border-radius: 6px;
+    background-color: rgb(250, 237, 208);
+    box-shadow: 5px 5px 0px 0px #000000ff;
+}
+
+.map-servers-container select{
+    background-color: #f6f3f9;
+    font-size: 15px;
+}
+
 .flex-container{
     padding: 20px;
     display: flex;
@@ -61,7 +80,7 @@ body{
     width: 200px;
     min-height: 0;
 
-    border: 3px solid;
+    border: 3px solid black;
     border-radius: 6px;
     background-color: rgb(250, 237, 208);
     box-shadow: 5px 5px 0px 0px #000000ff;
@@ -161,6 +180,15 @@ body{
 }
 
 .pin:hover {
+    z-index: 3;
+}
+
+.pin-shape-active {
+    transform: scale(1.1) rotate(-45deg);
+    background: rgb(240, 217, 84);
+}
+
+.pin-active {
     z-index: 3;
 }
 
