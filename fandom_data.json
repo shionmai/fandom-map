@@ -52,8 +52,12 @@
             "location": [23, 40]
         },
         {
-            "fandomName": ["Hoyoverse", "Genshin", "Honkai: Star Rail", "ZZZ", "Wuthering Waves"],
+            "fandomName": ["Hoyoverse", "Genshin", "Honkai: Star Rail", "Zenless Zone Zero", "Wuthering Waves"],
             "location": [24, 56]
+        },
+        {
+            "fandomName": ["Jojo's Bizarre Adventure"],
+            "location": [24, 80.5]
         },
         {
             "fandomName": ["Resident Evil"],
@@ -71,7 +75,6 @@
             "fandomName": ["Superheros"],
             "location": [31, 48]
         },
-        
         {
             "fandomName": ["Bongo Stray Dogs"],
             "location": [32, 44]
@@ -85,8 +88,20 @@
             "location": [32, 67]
         },
         {
+            "fandomName": ["Pokemon"],
+            "location": [35, 42]
+        },
+        {
+            "fandomName": ["Demon Slayer"],
+            "location": [45, 42]
+        },
+        {
             "fandomName": ["Deltarune", "Undertale"],
             "location": [51, 62]
+        },
+        {
+            "fandomName": ["Jujutsu Kaisen"],
+            "location": [52, 48]
         },
         {
             "fandomName": ["Ninjago"],
